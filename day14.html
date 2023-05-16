@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title> DAY NO 14</title>
+   
+   <style>
+    #parent{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 60%;
+border: 3px solid rgb(109, 238, 22);
+font: size 9.5px;
+background-color: rgb(201, 252, 124);
+color: rgb(8, 43, 8);
+
+}
+
+#parent>div{
+
+    height: 100px;
+    width:30%;
+    border:3px solid rgb(42, 73, 2);
+    text-align: center;
+    
+}
+
+#parent>div>div{
+    color: rgb(52, 191, 201);
+    border: 3px solid gold;
+    width:10px;
+    height:30%;
+}
+
+@media screen and (max-width:300px)
+{
+    #parent{
+        flex-direction: colum;
+        border:3px  solid  rgb(16, 94, 55);
+    }
+#parent>div{
+    border:10px  solid black;
+    display: flex;
+    flex-direction:row;
+height:200px;
+
+}
+#parent>div>div{
+    border:2px solid red;
+}
+
+#parent > div:nth-child(1)>div:nth-child(1)>h2{
+    color: red;
+}
+
+}</style>
+</head>
+<body>
+<div id="parent">
+    <div>
+        <h2 id="text">MOBILE  BRAND NAME</h2>
+    </div>
+    <div >APPLE</div>
+    <div>SAMSUNG</div>
+    <div>VIVO</div>
+    </div>
+</div>
+
+   <div id="parent">
+    <div>
+  <h2 id="text">CLOTH BRAND</h2>
+</div>
+<div >BIBA</div>
+<div>WARNER</div>
+<div>OLGA</div>
+</div>
+</div>
+
+<div id="parent">
+    <div>
+  <h2 id="text">REFRIGERATOR  NAME</h2>
+</div>
+<div >SAMSUNG</div>
+<div>LG</div>
+<div>WHIRLPOOL</div>
+</div>
+</body>
+</html>
+
+    
