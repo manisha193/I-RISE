@@ -22,7 +22,7 @@ console.log( number > 10 && number < 50 &&  number < 60)
 console.log( number > 10 || number < 50 ||  number < 60)
 
 
-// array  - multiple data in single varible
+// array  - multiple data in singlnoe varible
 
 var mystring = "ABC";
 
